@@ -63,7 +63,7 @@ const FinalResume = () => {
                 <div key={data} className="mb-4 mt-2">
                   <span className="font-bold text-lg">{data.certName}</span>{" "}
                   <br />
-                  {data.certProvider}
+                  {data.certProvider} <br />
                   {data.certLink}
                 </div>
               ))}
