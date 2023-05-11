@@ -74,8 +74,8 @@ const FinalResume = () => {
               </h3>
               {education.map((data) => (
                 <div key={data} className="mb-4 mt-2">
-                  <span className="font-bold text-lg">{data.Name}</span> <br />
-                  <span className="text-sm font-bold text-stone-400">
+                  <span className="font-bold text-lg">{data.Name}</span>
+                  <span className="text-sm font-bold text-stone-400 mx-10">
                     <span className="mr-2">{data.YOC}</span>
                   </span>
                   <br />
@@ -88,7 +88,7 @@ const FinalResume = () => {
               {experience.map((data) => (
                 <div key={data} className="mb-4 mt-2">
                   <span className="font-bold text-lg">{data.name}</span>
-                  <span className="text-sm font-bold text-stone-300 mx-10">
+                  <span className="text-sm font-bold text-stone-400 mx-10">
                     <span className="mr-2">{data.startDate} </span> -
                     <span className="ml-2">{data.endDate} </span>
                   </span>
