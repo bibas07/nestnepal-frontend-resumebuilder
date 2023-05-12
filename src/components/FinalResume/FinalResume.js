@@ -61,7 +61,7 @@ const FinalResume = () => {
 
               {achievement.map((data) => (
                 <div key={data} className="mb-4 mt-2">
-                  <span className="font-bold text-lg">{data.certName}</span>{" "}
+                  <span className="font-bold text-lg">{data.certName}</span>
                   <br />
                   {data.certProvider} <br />
                   {data.certLink}
